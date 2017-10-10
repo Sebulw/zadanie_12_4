@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&subset=latin-ext')
+body
+	font-family: 'Mukta', sans-serif
+	background: url('https://static.pexels.com/photos/220067/pexels-photo-220067.jpeg')
+.board
+	max-width: 1200px
+	margin: 0 auto
+	.board-container
+		text-align: center
+		padding: 20px
+		h1
+			padding: 10px
+			color: #FFF
+			font-weight: 700
+			text-shadow: 2px 2px 5px #CCC
+		.create-column
+			font-size: 20px
+			&:hover
+				transform: scale(1.10)
+				transition: .3s
+	.column-container
+		display: flex
+		justify-content: space-around
+		text-align: center
+		.column
+			background-color: #FFF
+			border-radius: 10px
+			min-height: 300px
+			min-width: 300px
+			.column-title
+				font-weight: 600
+				font-size: 35px
+				color: #313332
+		ul
+			list-style: none
+			padding: 10px
+			li
+				display: flex
+				padding: 10px
+				.card-description
+					background-color: #337ab7
+					min-width: 200px
+					border-radius: 5px
+					color: #FFF
+					cursor: pointer
