@@ -1,0 +1,31 @@
+{
+  "name": "zadanie_12_4",
+  "version": "1.0.0",
+  "description": "kodilla ajax zadanie",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebulw/zadanie_12_4.git"
+  },
+  "keywords": [
+    "kodilla",
+    "ajax"
+  ],
+  "author": "Sebastian Wojnicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sebulw/zadanie_12_4/issues"
+  },
+  "homepage": "https://github.com/Sebulw/zadanie_12_4#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
